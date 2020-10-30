@@ -26,7 +26,7 @@ public class TimeNowService extends HttpServlet {
         response.setContentType("text/plain;charset=utf-8");
         response.setHeader("Connection","Close");
         PrintWriter writer = response.getWriter();
-        writer.write(text);
+        writer.write("当前时间" + text);
         writer.close();
     }
 }
