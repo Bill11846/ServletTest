@@ -16,7 +16,7 @@ public class TestDB {
     public static void main(String[] args)throws SQLException {
         ComboPooledDataSource pooled = new ComboPooledDataSource();
         Connection conn = pooled.getConnection();
-        System.out.println("Test Successful and ending");
+        System.out.println("Test Successful");
         conn.close();
     }
 }
