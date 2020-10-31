@@ -16,7 +16,5 @@ public abstract class GenericApi {
     protected HttpServletRequest request;
     protected HttpServletResponse response;
 
-
-
     public abstract Object execute(JSONObject jreq)throws Exception;
 }
