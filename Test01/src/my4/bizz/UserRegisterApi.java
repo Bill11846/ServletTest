@@ -19,6 +19,7 @@ import java.time.format.DateTimeFormatter;
 public class UserRegisterApi extends AfRestfulApi {
     @Override
     public Object execute(JSONObject jreq) throws Exception {
+
         String username = jreq.getString("username");
         String password = jreq.getString("password");
 
