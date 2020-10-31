@@ -4,16 +4,27 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     
+<!--    <servlet>-->
+<!--        <servlet-name>GenericService</servlet-name>-->
+<!--        <servlet-class>my3.service.GenericService</servlet-class>-->
+<!--        <load-on-startup>1</load-on-startup>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>GenericService</servlet-name>-->
+<!--        <url-pattern>*.api</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    -->
+
     <servlet>
-        <servlet-name>GenericService</servlet-name>
-        <servlet-class>my3.service.GenericService</servlet-class>
+        <servlet-name>AfGenericService</servlet-name>
+        <servlet-class>af.web.service.AfGenericService</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>GenericService</servlet-name>
+        <servlet-name>AfGenericService</servlet-name>
         <url-pattern>*.api</url-pattern>
     </servlet-mapping>
-    
+
     <servlet>
         <servlet-name>AfUploadService</servlet-name>
         <servlet-class>af.web.fileupload.AfUploadService</servlet-class>
