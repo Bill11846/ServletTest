@@ -55,6 +55,8 @@
         req.password = $('.password').val().trim();
         var req = $('.password2').val().trim();
 
+        if(req.password != password2) {alert("password is not correct"); return;}
+        
         $.ajax({
             type:'post',
             url:'UserRegister.api',
