@@ -18,6 +18,19 @@ public class User {
     public int level;
     public Object timeCreated;
 
+    public User(String username, String password, boolean canRead, boolean canPost,
+                boolean canReply, int level, Object timeCreated) {
+        this.username = username;
+        this.password = password;
+        this.canRead = canRead;
+        this.canPost = canPost;
+        this.canReply = canReply;
+        this.level = level;
+        this.timeCreated = timeCreated;
+    }
+
+
+
     public int getId() {
         return id;
     }

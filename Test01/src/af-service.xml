@@ -8,4 +8,5 @@
     -->
 
     <service name="UserRegister" class="my4.bizz.UserRegisterApi"/>
+    <service name="UserLogin" class="my4.bizz.UserLoginApi"/>
 </config>
