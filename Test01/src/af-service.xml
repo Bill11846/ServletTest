@@ -7,6 +7,6 @@
         <upload name="SimpleFileUpload" class="my.SimpleUploader" />
     -->
 
-    <service name="UserRegister" class="my4.bizz.UserRegisterApi"/>
+    <service name="UserRegister" class="my4.user.UserRegisterApi"/>
     <service name="UserLogin" class="my4.bizz.UserLoginApi"/>
 </config>

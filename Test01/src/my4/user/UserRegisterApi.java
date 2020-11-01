@@ -1,4 +1,4 @@
-package my4.bizz;
+package my4.user;
 
 import af.web.restful.AfRestfulApi;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
